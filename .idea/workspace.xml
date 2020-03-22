@@ -4,9 +4,7 @@
     <list default="true" id="34c6ee15-e641-4c49-bd5d-d0d99b07f217" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/MyConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/MyConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/VendasApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/VendasApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/MyConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/MyConfiguration.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,30 +152,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1245" y="207" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584909930903" />
-    <state x="1094" y="114" key="CommitChangelistDialog2" timestamp="1584913517760">
+    <state x="1094" y="114" key="CommitChangelistDialog2" timestamp="1584914539630">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1094" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584913517760" />
+    <state x="1094" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584914539630" />
     <state x="1262" y="419" key="Github.CreateGistDialog" timestamp="1584913397211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1262" y="419" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584913397211" />
-    <state width="914" height="433" key="GridCell.Tab.0.bottom" timestamp="1584913737253">
+    <state width="914" height="433" key="GridCell.Tab.0.bottom" timestamp="1584914517919">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="433" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584913737253" />
-    <state width="914" height="433" key="GridCell.Tab.0.center" timestamp="1584913737252">
+    <state width="914" height="433" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584914517919" />
+    <state width="914" height="433" key="GridCell.Tab.0.center" timestamp="1584914517919">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="433" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584913737252" />
-    <state width="914" height="433" key="GridCell.Tab.0.left" timestamp="1584913737252">
+    <state width="914" height="433" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584914517919" />
+    <state width="914" height="433" key="GridCell.Tab.0.left" timestamp="1584914517919">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="433" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584913737252" />
-    <state width="914" height="433" key="GridCell.Tab.0.right" timestamp="1584913737253">
+    <state width="914" height="433" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584914517919" />
+    <state width="914" height="433" key="GridCell.Tab.0.right" timestamp="1584914517919">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="433" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584913737253" />
+    <state width="914" height="433" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584914517919" />
     <state x="922" y="166" key="SettingsEditor" timestamp="1584910139547">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
