@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34c6ee15-e641-4c49-bd5d-d0d99b07f217" name="Default Changelist" comment="">
+    <list default="true" id="34c6ee15-e641-4c49-bd5d-d0d99b07f217" name="Default Changelist" comment="initial">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/MyConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/MyConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/VendasApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/VendasApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-production.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-production.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-production.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-production.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/MyConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/MyConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/VendasApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/VendasApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,22 +166,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1262" y="419" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584913397211" />
-    <state width="914" height="433" key="GridCell.Tab.0.bottom" timestamp="1584914517919">
+    <state width="914" height="433" key="GridCell.Tab.0.bottom" timestamp="1584915050988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="433" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584914517919" />
-    <state width="914" height="433" key="GridCell.Tab.0.center" timestamp="1584914517919">
+    <state width="914" height="433" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584915050988" />
+    <state width="914" height="433" key="GridCell.Tab.0.center" timestamp="1584915050988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="433" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584914517919" />
-    <state width="914" height="433" key="GridCell.Tab.0.left" timestamp="1584914517919">
+    <state width="914" height="433" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584915050988" />
+    <state width="914" height="433" key="GridCell.Tab.0.left" timestamp="1584915050988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="433" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584914517919" />
-    <state width="914" height="433" key="GridCell.Tab.0.right" timestamp="1584914517919">
+    <state width="914" height="433" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584915050988" />
+    <state width="914" height="433" key="GridCell.Tab.0.right" timestamp="1584915050988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="433" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584914517919" />
+    <state width="914" height="433" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584915050988" />
     <state x="922" y="166" key="SettingsEditor" timestamp="1584910139547">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

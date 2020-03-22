@@ -10,12 +10,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-@ComponentScan(
-        basePackages = {
-                "com.walmeida.springexpert.repository",
-                "com.walmeida.springexpert.service"}
-        )
-
 @RestController
 public class VendasApplication {
 
