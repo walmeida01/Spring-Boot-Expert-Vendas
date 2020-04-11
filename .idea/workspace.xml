@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="34c6ee15-e641-4c49-bd5d-d0d99b07f217" name="Default Changelist" comment="initial">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/Development.java" afterDir="false" />
+    <list default="true" id="34c6ee15-e641-4c49-bd5d-d0d99b07f217" name="Default Changelist" comment="course">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/MyConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/MyConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/VendasApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/VendasApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/MyConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/MyConfiguration.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +35,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="AnnotationType" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -37,18 +54,10 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1ZSlgguypNm1Kd6r0UsiRhi0Vp6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -61,7 +70,7 @@
   <component name="RunManager">
     <configuration name="VendasApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.walmeida.springexpert.VendasApplication" />
-      <module name="vendas" />
+      <module name="SpringExpert" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.walmeida.springexpert.MyConfiguration" />
@@ -77,9 +86,6 @@
         <item itemvalue="Application.VendasApplication" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -131,23 +137,29 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+    <MESSAGE value="Seção 3, JPA" />
+    <MESSAGE value="course" />
+    <MESSAGE value="seção 3 - jpa" />
+    <option name="LAST_COMMIT_MESSAGE" value="seção 3 - jpa" />
   </component>
   <component name="WindowStateProjectService">
     <state x="883" y="193" key="#Project_Structure" timestamp="1584840835215">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="883" y="193" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1584840835215" />
+    <state x="657" y="139" key="#VendasApplication" timestamp="1586636218702">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="657" y="139" key="#VendasApplication/0.0.1920.1040/-2498.0.2498.1080@0.0.1920.1040" timestamp="1586636218702" />
     <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584913489998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -156,37 +168,44 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1186" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584912628729" />
-    <state x="1245" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1584909930903">
+    <state x="1245" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1586639079059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="1245" y="207" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-2498.0.2498.1080@0.0.1920.1040" timestamp="1586639079059" />
     <state x="1245" y="207" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584909930903" />
-    <state x="1094" y="114" key="CommitChangelistDialog2" timestamp="1584914539630">
+    <state x="424" y="142" key="CommitChangelistDialog2" timestamp="1586639111275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="424" y="142" key="CommitChangelistDialog2/0.0.1920.1040/-2498.0.2498.1080@0.0.1920.1040" timestamp="1586639111275" />
     <state x="1094" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584914539630" />
     <state x="1262" y="419" key="Github.CreateGistDialog" timestamp="1584913397211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1262" y="419" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584913397211" />
-    <state width="914" height="433" key="GridCell.Tab.0.bottom" timestamp="1584915858283">
+    <state width="1877" height="436" key="GridCell.Tab.0.bottom" timestamp="1586639604770">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="436" key="GridCell.Tab.0.bottom/0.0.1920.1040/-2498.0.2498.1080@0.0.1920.1040" timestamp="1586639604770" />
     <state width="914" height="433" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584915858283" />
-    <state width="914" height="433" key="GridCell.Tab.0.center" timestamp="1584915858283">
+    <state width="1877" height="436" key="GridCell.Tab.0.center" timestamp="1586639604770">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="436" key="GridCell.Tab.0.center/0.0.1920.1040/-2498.0.2498.1080@0.0.1920.1040" timestamp="1586639604770" />
     <state width="914" height="433" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584915858283" />
-    <state width="914" height="433" key="GridCell.Tab.0.left" timestamp="1584915858283">
+    <state width="1877" height="436" key="GridCell.Tab.0.left" timestamp="1586639604770">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="436" key="GridCell.Tab.0.left/0.0.1920.1040/-2498.0.2498.1080@0.0.1920.1040" timestamp="1586639604770" />
     <state width="914" height="433" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584915858283" />
-    <state width="914" height="433" key="GridCell.Tab.0.right" timestamp="1584915858283">
+    <state width="1877" height="436" key="GridCell.Tab.0.right" timestamp="1586639604770">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="436" key="GridCell.Tab.0.right/0.0.1920.1040/-2498.0.2498.1080@0.0.1920.1040" timestamp="1586639604770" />
     <state width="914" height="433" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584915858283" />
-    <state x="922" y="166" key="SettingsEditor" timestamp="1584910139547">
+    <state x="922" y="166" key="SettingsEditor" timestamp="1586637028609">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="922" y="166" key="SettingsEditor/0.0.1920.1040/-2498.0.2498.1080@0.0.1920.1040" timestamp="1586637028609" />
     <state x="922" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584910139547" />
     <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584912180078">
       <screen x="0" y="0" width="1920" height="1040" />
