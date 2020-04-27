@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="SpringExpert" />
         <module name="vendas" />
-        <module name="SpringExpert" />
       </profile>
     </annotationProcessing>
   </component>
