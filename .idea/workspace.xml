@@ -16,14 +16,34 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34c6ee15-e641-4c49-bd5d-d0d99b07f217" name="Default Changelist" comment="seção 3 - jpa(salvando e recuperando clientes)">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/Development.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/Development.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/VendasApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/VendasApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/domain/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/domain/entity/Cliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/domain/repository/Clientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/domain/repository/Clientes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/model/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/repository/ClientesRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/service/ClientesService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/meu_schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/Development.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/Development.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/VendasApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/VendasApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/domain/entity/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/domain/entity/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/model/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/repository/ClientesRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/service/ClientesService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +90,8 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.scopes" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RunManager">
     <configuration name="VendasApplication" type="Application" factoryName="Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
@@ -145,7 +166,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586645681868</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="seção 3 - jpa(salvando e recuperando clientes)">
+      <created>1587951806926</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587951806926</updated>
+    </task>
+    <task id="LOCAL-00008" summary="seção 3 - jpa(salvando e recuperando clientes)">
+      <created>1587951899776</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1587951899776</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -156,7 +191,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -169,14 +216,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="seção 3 - jpa(salvando e recuperando clientes)" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1364" y="403" key="#Notifications" timestamp="1588367976637">
+      <screen x="-2498" y="0" width="2498" height="1080" />
+    </state>
+    <state x="-1364" y="403" key="#Notifications/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1588367976637" />
     <state x="883" y="193" key="#Project_Structure" timestamp="1584840835215">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="883" y="193" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1584840835215" />
-    <state x="-1552" y="159" key="#VendasApplication" timestamp="1587951674487">
+    <state x="-1552" y="159" key="#VendasApplication" timestamp="1588376126784">
       <screen x="-2498" y="0" width="2498" height="1080" />
     </state>
-    <state x="-1552" y="159" key="#VendasApplication/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1587951674487" />
+    <state x="-1552" y="159" key="#VendasApplication/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1588376126784" />
     <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584913489998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -189,6 +240,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1245" y="207" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584909930903" />
+    <state x="-925" y="295" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588374737872">
+      <screen x="-2498" y="0" width="2498" height="1080" />
+    </state>
+    <state x="-925" y="295" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1588374737872" />
     <state x="1094" y="114" key="CommitChangelistDialog2" timestamp="1584914539630">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -197,35 +252,35 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1262" y="419" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584913397211" />
-    <state width="2455" height="444" key="GridCell.Tab.0.bottom" timestamp="1587951680926">
+    <state width="1266" height="443" key="GridCell.Tab.0.bottom" timestamp="1588376128530">
       <screen x="-2498" y="0" width="2498" height="1080" />
     </state>
-    <state width="2455" height="444" key="GridCell.Tab.0.bottom/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1587951680926" />
+    <state width="1266" height="443" key="GridCell.Tab.0.bottom/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1588376128530" />
     <state width="914" height="433" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584915858283" />
-    <state width="2455" height="444" key="GridCell.Tab.0.center" timestamp="1587951680926">
+    <state width="1266" height="443" key="GridCell.Tab.0.center" timestamp="1588376128530">
       <screen x="-2498" y="0" width="2498" height="1080" />
     </state>
-    <state width="2455" height="444" key="GridCell.Tab.0.center/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1587951680926" />
+    <state width="1266" height="443" key="GridCell.Tab.0.center/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1588376128530" />
     <state width="914" height="433" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584915858283" />
-    <state width="2455" height="444" key="GridCell.Tab.0.left" timestamp="1587951680926">
+    <state width="1266" height="443" key="GridCell.Tab.0.left" timestamp="1588376128530">
       <screen x="-2498" y="0" width="2498" height="1080" />
     </state>
-    <state width="2455" height="444" key="GridCell.Tab.0.left/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1587951680926" />
+    <state width="1266" height="443" key="GridCell.Tab.0.left/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1588376128530" />
     <state width="914" height="433" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584915858283" />
-    <state width="2455" height="444" key="GridCell.Tab.0.right" timestamp="1587951680926">
+    <state width="1266" height="443" key="GridCell.Tab.0.right" timestamp="1588376128530">
       <screen x="-2498" y="0" width="2498" height="1080" />
     </state>
-    <state width="2455" height="444" key="GridCell.Tab.0.right/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1587951680926" />
+    <state width="1266" height="443" key="GridCell.Tab.0.right/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1588376128530" />
     <state width="914" height="433" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584915858283" />
-    <state x="-1298" y="172" key="SettingsEditor" timestamp="1587950149802">
+    <state x="-1298" y="172" key="SettingsEditor" timestamp="1588367793815">
       <screen x="-2498" y="0" width="2498" height="1080" />
     </state>
-    <state x="-1298" y="172" key="SettingsEditor/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1587950149802" />
-    <state x="922" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584910139547" />
-    <state x="-1155" y="263" key="Vcs.Push.Dialog.v2" timestamp="1586645688804">
+    <state x="-1298" y="172" key="SettingsEditor/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1588367793815" />
+    <state x="35" y="10" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588365443530" />
+    <state x="-1155" y="263" key="Vcs.Push.Dialog.v2" timestamp="1587951811537">
       <screen x="-2498" y="0" width="2498" height="1080" />
     </state>
-    <state x="-1155" y="263" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1586645688804" />
+    <state x="-1155" y="263" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1587951811537" />
     <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584912180078" />
     <state width="1192" height="1078" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1587947466527">
       <screen x="-2498" y="0" width="2498" height="1080" />
@@ -252,9 +307,10 @@
       <screen x="-2498" y="0" width="2498" height="1080" />
     </state>
     <state x="-2148" y="254" key="run.anything.popup/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1587947564757" />
-    <state x="1103" y="229" key="search.everywhere.popup" timestamp="1584911648345">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-1063" y="238" width="672" height="678" key="search.everywhere.popup" timestamp="1588366668770">
+      <screen x="-2498" y="0" width="2498" height="1080" />
     </state>
-    <state x="1103" y="229" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584911648345" />
+    <state x="-1063" y="238" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1588366668770" />
+    <state x="1103" y="229" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588365854273" />
   </component>
 </project>

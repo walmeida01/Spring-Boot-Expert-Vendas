@@ -1,8 +1,17 @@
 package com.walmeida.springexpert.domain.entity;
 
+import javax.persistence.*;
+
+@Entity
+@Table( name = "cliente" )
 public class Cliente {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "id")
     private Integer id;
+
+    @Column(name = "nome", length = 100)
     private String nome;
 
     public Cliente() {
@@ -15,10 +24,6 @@ public class Cliente {
 
     public Cliente(String nome) {
         this.nome = nome;
-    }
-
-    public Cliente(Integer id) {
-        this.id = id;
     }
 
     public Integer getId() {
@@ -45,4 +50,3 @@ public class Cliente {
                 '}';
     }
 }
-
