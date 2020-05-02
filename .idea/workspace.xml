@@ -27,23 +27,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34c6ee15-e641-4c49-bd5d-d0d99b07f217" name="Default Changelist" comment="seção 3 - jpa(salvando e recuperando clientes)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/domain/repository/ItemsPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/domain/repository/Pedidos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/domain/repository/Produtos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/rest/controller/ClienteController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/Development.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/Development.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/Development.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/MyConfiguration.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/VendasApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/VendasApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/domain/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/domain/entity/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/domain/entity/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/domain/entity/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/domain/entity/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/domain/entity/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/domain/entity/itemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/domain/entity/ItemPedido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/domain/repository/Clientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/domain/repository/Clientes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/model/Cliente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/repository/ClientesRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/service/ClientesService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/meu_schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/Development.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/Development.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/Development.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/MyConfiguration.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/VendasApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/VendasApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/domain/entity/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/domain/entity/Cliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/model/Cliente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/repository/ClientesRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/service/ClientesService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/domain/entity/Pedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/domain/entity/Pedido.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/domain/entity/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/domain/entity/Produto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/domain/entity/itemPedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/domain/entity/itemPedido.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +58,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="AnnotationType" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -94,7 +99,7 @@
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RunManager">
-    <configuration name="VendasApplication" type="Application" factoryName="Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+    <configuration name="VendasApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.walmeida.springexpert.VendasApplication" />
       <module name="SpringExpert" />
       <extension name="coverage">
@@ -180,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587951899776</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="seção 3 - jpa(salvando e recuperando clientes)">
+      <created>1588376258359</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1588376258359</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -224,10 +236,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="883" y="193" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1584840835215" />
-    <state x="-1552" y="159" key="#VendasApplication" timestamp="1588376126784">
-      <screen x="-2498" y="0" width="2498" height="1080" />
+    <state x="1008" y="159" key="#VendasApplication" timestamp="1588446456807">
+      <screen x="62" y="0" width="2498" height="1080" />
     </state>
     <state x="-1552" y="159" key="#VendasApplication/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1588376126784" />
+    <state x="1008" y="159" key="#VendasApplication/62.0.2498.1080@62.0.2498.1080" timestamp="1588446456807" />
     <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584913489998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -236,10 +249,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1186" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584912628729" />
-    <state x="1245" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1584909930903">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="808" y="274" key="#com.intellij.ide.util.MemberChooser" timestamp="1588452281678">
+      <screen x="62" y="0" width="2498" height="1080" />
     </state>
     <state x="1245" y="207" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584909930903" />
+    <state x="808" y="274" key="#com.intellij.ide.util.MemberChooser/62.0.2498.1080@62.0.2498.1080" timestamp="1588452281678" />
     <state x="-925" y="295" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588374737872">
       <screen x="-2498" y="0" width="2498" height="1080" />
     </state>
@@ -248,39 +262,67 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1094" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584914539630" />
+    <state width="380" height="466" key="DebuggerActiveHint" timestamp="1588446749765">
+      <screen x="62" y="0" width="2498" height="1080" />
+    </state>
+    <state width="380" height="466" key="DebuggerActiveHint/62.0.2498.1080@62.0.2498.1080" timestamp="1588446749765" />
     <state x="1262" y="419" key="Github.CreateGistDialog" timestamp="1584913397211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1262" y="419" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584913397211" />
-    <state width="1266" height="443" key="GridCell.Tab.0.bottom" timestamp="1588376128530">
-      <screen x="-2498" y="0" width="2498" height="1080" />
+    <state width="1203" height="235" key="GridCell.Tab.0.bottom" timestamp="1588455118618">
+      <screen x="62" y="0" width="2498" height="1080" />
     </state>
-    <state width="1266" height="443" key="GridCell.Tab.0.bottom/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1588376128530" />
+    <state width="1266" height="443" key="GridCell.Tab.0.bottom/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1588376304661" />
     <state width="914" height="433" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584915858283" />
-    <state width="1266" height="443" key="GridCell.Tab.0.center" timestamp="1588376128530">
-      <screen x="-2498" y="0" width="2498" height="1080" />
+    <state width="1203" height="235" key="GridCell.Tab.0.bottom/62.0.2498.1080@62.0.2498.1080" timestamp="1588455118618" />
+    <state width="1203" height="235" key="GridCell.Tab.0.center" timestamp="1588455118618">
+      <screen x="62" y="0" width="2498" height="1080" />
     </state>
-    <state width="1266" height="443" key="GridCell.Tab.0.center/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1588376128530" />
+    <state width="1266" height="443" key="GridCell.Tab.0.center/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1588376304661" />
     <state width="914" height="433" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584915858283" />
-    <state width="1266" height="443" key="GridCell.Tab.0.left" timestamp="1588376128530">
-      <screen x="-2498" y="0" width="2498" height="1080" />
+    <state width="1203" height="235" key="GridCell.Tab.0.center/62.0.2498.1080@62.0.2498.1080" timestamp="1588455118618" />
+    <state width="1203" height="235" key="GridCell.Tab.0.left" timestamp="1588455118618">
+      <screen x="62" y="0" width="2498" height="1080" />
     </state>
-    <state width="1266" height="443" key="GridCell.Tab.0.left/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1588376128530" />
+    <state width="1266" height="443" key="GridCell.Tab.0.left/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1588376304661" />
     <state width="914" height="433" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584915858283" />
-    <state width="1266" height="443" key="GridCell.Tab.0.right" timestamp="1588376128530">
-      <screen x="-2498" y="0" width="2498" height="1080" />
+    <state width="1203" height="235" key="GridCell.Tab.0.left/62.0.2498.1080@62.0.2498.1080" timestamp="1588455118618" />
+    <state width="1203" height="235" key="GridCell.Tab.0.right" timestamp="1588455118618">
+      <screen x="62" y="0" width="2498" height="1080" />
     </state>
-    <state width="1266" height="443" key="GridCell.Tab.0.right/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1588376128530" />
+    <state width="1266" height="443" key="GridCell.Tab.0.right/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1588376304661" />
     <state width="914" height="433" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584915858283" />
+    <state width="1203" height="235" key="GridCell.Tab.0.right/62.0.2498.1080@62.0.2498.1080" timestamp="1588455118618" />
+    <state width="1219" height="354" key="GridCell.Tab.1.bottom" timestamp="1588447045691">
+      <screen x="62" y="0" width="2498" height="1080" />
+    </state>
+    <state width="1219" height="354" key="GridCell.Tab.1.bottom/62.0.2498.1080@62.0.2498.1080" timestamp="1588447045691" />
+    <state width="1219" height="354" key="GridCell.Tab.1.center" timestamp="1588447045691">
+      <screen x="62" y="0" width="2498" height="1080" />
+    </state>
+    <state width="1219" height="354" key="GridCell.Tab.1.center/62.0.2498.1080@62.0.2498.1080" timestamp="1588447045691" />
+    <state width="1219" height="354" key="GridCell.Tab.1.left" timestamp="1588447045691">
+      <screen x="62" y="0" width="2498" height="1080" />
+    </state>
+    <state width="1219" height="354" key="GridCell.Tab.1.left/62.0.2498.1080@62.0.2498.1080" timestamp="1588447045691" />
+    <state width="1219" height="354" key="GridCell.Tab.1.right" timestamp="1588447045691">
+      <screen x="62" y="0" width="2498" height="1080" />
+    </state>
+    <state width="1219" height="354" key="GridCell.Tab.1.right/62.0.2498.1080@62.0.2498.1080" timestamp="1588447045691" />
+    <state x="224" y="198" key="Maven.ArtifactSearchDialog" timestamp="1588446305597">
+      <screen x="62" y="0" width="2498" height="1080" />
+    </state>
+    <state x="224" y="198" key="Maven.ArtifactSearchDialog/62.0.2498.1080@62.0.2498.1080" timestamp="1588446305597" />
     <state x="-1298" y="172" key="SettingsEditor" timestamp="1588367793815">
       <screen x="-2498" y="0" width="2498" height="1080" />
     </state>
     <state x="-1298" y="172" key="SettingsEditor/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1588367793815" />
     <state x="35" y="10" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588365443530" />
-    <state x="-1155" y="263" key="Vcs.Push.Dialog.v2" timestamp="1587951811537">
+    <state x="-1155" y="263" key="Vcs.Push.Dialog.v2" timestamp="1588376262013">
       <screen x="-2498" y="0" width="2498" height="1080" />
     </state>
-    <state x="-1155" y="263" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1587951811537" />
+    <state x="-1155" y="263" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1588376262013" />
     <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584912180078" />
     <state width="1192" height="1078" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1587947466527">
       <screen x="-2498" y="0" width="2498" height="1080" />
@@ -295,6 +337,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1211" y="226" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584913415532" />
+    <state x="257" y="272" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1588446096544">
+      <screen x="62" y="0" width="2498" height="1080" />
+    </state>
+    <state x="257" y="272" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/62.0.2498.1080@62.0.2498.1080" timestamp="1588446096544" />
     <state x="-2074" y="294" key="extract.method.dialog" timestamp="1587948309639">
       <screen x="-2498" y="0" width="2498" height="1080" />
     </state>
@@ -307,10 +353,11 @@
       <screen x="-2498" y="0" width="2498" height="1080" />
     </state>
     <state x="-2148" y="254" key="run.anything.popup/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1587947564757" />
-    <state x="-1063" y="238" width="672" height="678" key="search.everywhere.popup" timestamp="1588366668770">
-      <screen x="-2498" y="0" width="2498" height="1080" />
+    <state x="1497" y="238" width="672" height="678" key="search.everywhere.popup" timestamp="1588447136090">
+      <screen x="62" y="0" width="2498" height="1080" />
     </state>
     <state x="-1063" y="238" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1588366668770" />
     <state x="1103" y="229" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588365854273" />
+    <state x="1497" y="238" width="672" height="678" key="search.everywhere.popup/62.0.2498.1080@62.0.2498.1080" timestamp="1588447136090" />
   </component>
 </project>
