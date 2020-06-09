@@ -23,7 +23,6 @@ import static org.springframework.http.HttpStatus.*;
 @RestController
 @RequestMapping("/api/pedidos")
 public class PedidoController {
-
     private PedidoService service;
 
     public PedidoController(PedidoService service) {
@@ -38,7 +37,7 @@ public class PedidoController {
     }
 
     @GetMapping("{id}")
-    public InformacoesPedidoDTO getById(@PathVariable Integer id ){
+    public InformacoesPedidoDTO getById( @PathVariable Integer id ){
         return service
                 .obterPedidoCompleto(id)
                 .map( p -> converter(p) )

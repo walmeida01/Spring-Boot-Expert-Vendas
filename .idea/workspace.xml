@@ -27,45 +27,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34c6ee15-e641-4c49-bd5d-d0d99b07f217" name="Default Changelist" comment="seção 4 - Rest">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/almei.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/config/InternacionalizacaoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/domain/enums/StatusPedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/exception/PedidoNaoEncontradoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/exception/RegraNegocioException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/rest/ApiErrors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/rest/controller/ApplicationControllerAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/rest/controller/PedidoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/rest/controller/ProdutoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/rest/dto/AtualizacaoStatusPedidoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/rest/dto/InformacaoItemPedidoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/rest/dto/InformacoesPedidoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/rest/dto/ItemPedidoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/rest/dto/PedidoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/service/PedidoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/service/impl/PedidoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/validation/NotEmptyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/validation/constraintvalidation/NotEmptyListValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/message.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SpringExpert.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SpringExpert.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/domain/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/domain/entity/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/domain/entity/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/domain/entity/ItemPedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/domain/entity/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/domain/entity/Pedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/domain/entity/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/domain/entity/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/VendasApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/VendasApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/domain/repository/Pedidos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/domain/repository/Pedidos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/rest/controller/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/rest/controller/ClienteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/SpringExpert.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-development.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-production.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/VendasApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/domain/entity/Cliente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/domain/entity/Pedido.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/domain/entity/Produto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/walmeida/springexpert/domain/entity/itemPedido.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/rest/controller/PedidoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/rest/controller/PedidoController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588456024241</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Bean Validation">
+      <created>1591669701068</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1591669701068</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -318,6 +290,10 @@
       <screen x="-2498" y="0" width="2498" height="1080" />
     </state>
     <state x="-925" y="295" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1588374737872" />
+    <state x="671" y="196" key="#com.intellij.unscramble.UnscrambleDialog" timestamp="1591671671368">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="671" y="196" key="#com.intellij.unscramble.UnscrambleDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1591671671368" />
     <state x="1094" y="114" key="CommitChangelistDialog2" timestamp="1584914539630">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -330,41 +306,41 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1262" y="419" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584913397211" />
-    <state width="883" height="422" key="GridCell.Tab.0.bottom" timestamp="1591669635004">
+    <state width="1815" height="422" key="GridCell.Tab.0.bottom" timestamp="1591671865393">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1266" height="443" key="GridCell.Tab.0.bottom/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1588376304661" />
     <state width="914" height="433" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584915858283" />
     <state width="1354" height="258" key="GridCell.Tab.0.bottom/0.27.2560.1053/2560.0.1920.1080@0.27.2560.1053" timestamp="1588550562730" />
     <state width="1205" height="419" key="GridCell.Tab.0.bottom/62.0.1858.1080/1982.0.2498.1080@1982.0.2498.1080" timestamp="1590901346873" />
-    <state width="883" height="422" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1591669635004" />
+    <state width="1815" height="422" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1591671865393" />
     <state width="1203" height="235" key="GridCell.Tab.0.bottom/62.0.2498.1080@62.0.2498.1080" timestamp="1588456266483" />
-    <state width="883" height="422" key="GridCell.Tab.0.center" timestamp="1591669635004">
+    <state width="1815" height="422" key="GridCell.Tab.0.center" timestamp="1591671865393">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1266" height="443" key="GridCell.Tab.0.center/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1588376304661" />
     <state width="914" height="433" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584915858283" />
     <state width="1354" height="258" key="GridCell.Tab.0.center/0.27.2560.1053/2560.0.1920.1080@0.27.2560.1053" timestamp="1588550562730" />
     <state width="1205" height="419" key="GridCell.Tab.0.center/62.0.1858.1080/1982.0.2498.1080@1982.0.2498.1080" timestamp="1590901346873" />
-    <state width="883" height="422" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1591669635004" />
+    <state width="1815" height="422" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1591671865393" />
     <state width="1203" height="235" key="GridCell.Tab.0.center/62.0.2498.1080@62.0.2498.1080" timestamp="1588456266482" />
-    <state width="883" height="422" key="GridCell.Tab.0.left" timestamp="1591669635004">
+    <state width="1815" height="422" key="GridCell.Tab.0.left" timestamp="1591671865392">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1266" height="443" key="GridCell.Tab.0.left/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1588376304661" />
     <state width="914" height="433" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584915858283" />
     <state width="1354" height="258" key="GridCell.Tab.0.left/0.27.2560.1053/2560.0.1920.1080@0.27.2560.1053" timestamp="1588550562729" />
     <state width="1205" height="419" key="GridCell.Tab.0.left/62.0.1858.1080/1982.0.2498.1080@1982.0.2498.1080" timestamp="1590901346873" />
-    <state width="883" height="422" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1591669635004" />
+    <state width="1815" height="422" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1591671865392" />
     <state width="1203" height="235" key="GridCell.Tab.0.left/62.0.2498.1080@62.0.2498.1080" timestamp="1588456266482" />
-    <state width="883" height="422" key="GridCell.Tab.0.right" timestamp="1591669635004">
+    <state width="1815" height="422" key="GridCell.Tab.0.right" timestamp="1591671865393">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1266" height="443" key="GridCell.Tab.0.right/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1588376304661" />
     <state width="914" height="433" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584915858283" />
     <state width="1354" height="258" key="GridCell.Tab.0.right/0.27.2560.1053/2560.0.1920.1080@0.27.2560.1053" timestamp="1588550562730" />
     <state width="1205" height="419" key="GridCell.Tab.0.right/62.0.1858.1080/1982.0.2498.1080@1982.0.2498.1080" timestamp="1590901346873" />
-    <state width="883" height="422" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1591669635004" />
+    <state width="1815" height="422" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1591671865393" />
     <state width="1203" height="235" key="GridCell.Tab.0.right/62.0.2498.1080@62.0.2498.1080" timestamp="1588456266482" />
     <state width="1219" height="354" key="GridCell.Tab.1.bottom" timestamp="1588456266481">
       <screen x="62" y="0" width="2498" height="1080" />
@@ -392,11 +368,12 @@
     <state x="-1298" y="172" key="SettingsEditor/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1588367793815" />
     <state x="35" y="10" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588365443530" />
     <state x="2101" y="102" key="SettingsEditor/62.0.1858.1080/1982.0.2498.1080@1982.0.2498.1080" timestamp="1590897715678" />
-    <state x="1405" y="263" key="Vcs.Push.Dialog.v2" timestamp="1588456055409">
-      <screen x="62" y="0" width="2498" height="1080" />
+    <state x="1061" y="263" key="Vcs.Push.Dialog.v2" timestamp="1591669707669">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="-1155" y="263" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1588376262013" />
     <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584912180078" />
+    <state x="1061" y="263" key="Vcs.Push.Dialog.v2/62.0.1858.1080@62.0.1858.1080" timestamp="1591669707669" />
     <state x="1405" y="263" key="Vcs.Push.Dialog.v2/62.0.2498.1080@62.0.2498.1080" timestamp="1588456055409" />
     <state x="389" y="318" width="634" height="444" key="chooseDestDirectoryDialog" timestamp="1591665998522">
       <screen x="62" y="0" width="1858" height="1080" />
@@ -444,5 +421,16 @@
     <state x="-1063" y="238" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1588366668770" />
     <state x="1103" y="229" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588365854273" />
     <state x="1497" y="238" width="672" height="678" key="search.everywhere.popup/62.0.2498.1080@62.0.2498.1080" timestamp="1588447136090" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/walmeida/springexpert/service/impl/PedidoServiceImpl.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
